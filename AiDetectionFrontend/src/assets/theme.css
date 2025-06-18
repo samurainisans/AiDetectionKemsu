@@ -1,0 +1,37 @@
+/* Темная тема */
+.dark-mode {
+  background-color: #1f2937;
+  color: #f9fafb;
+}
+
+.dark-mode .bg-white {
+  background-color: #374151 !important;
+}
+
+.dark-mode .text-gray-900 {
+  color: #f9fafb !important;
+}
+
+.dark-mode .text-gray-600 {
+  color: #d1d5db !important;
+}
+
+.dark-mode .text-gray-800 {
+  color: #f3f4f6 !important;
+}
+
+.dark-mode .border-b {
+  border-color: #4b5563 !important;
+}
+
+.dark-mode .shadow-sm {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3) !important;
+}
+
+/* Переключатель темы */
+.theme-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
